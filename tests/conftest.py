@@ -17,7 +17,7 @@ def driver():
         'name': 'Jenkins Sample Test',
         'build': 'Jenkins Build Python 3.6',
         'bstack:options': {
-            'accessibility': true
+            'accessibility': True
     }
     }
 
