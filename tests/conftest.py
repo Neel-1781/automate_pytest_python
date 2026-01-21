@@ -19,6 +19,7 @@ def driver():
         'bstack:options': {
             'accessibility': True
     }
+    }
 
     # 3. Connect to BrowserStack
     bstack_url = 'https://' + username + ':' + access_key + '@hub-cloud.browserstack.com/wd/hub'
