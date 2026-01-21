@@ -1,6 +1,14 @@
 import pytest
 from selenium.webdriver.common.by import By
 
+def test_example(driver):
+    # The 'driver' argument comes automatically from conftest.py
+    driver.get("https://bstackdemo.com")
+    
+    print("Page Title: " + driver.title)
+    
+    assert "StackDemo" in driver.title
+
 def test_example(selenium):
     selenium.get('https://bstackdemo.com/')
 
@@ -18,3 +26,4 @@ def test_example(selenium):
 
     # checking whether product has been added to cart by comparing product name
     assert productCartText == productText
+
