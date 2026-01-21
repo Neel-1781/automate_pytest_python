@@ -19,6 +19,8 @@ def test_browserstack():
         'browser_version': 'latest',
         'name': 'Jenkins Python 3.6 Test',
         'build': 'Jenkins Build'
+        'bstack:options': {
+            'accessibility': True
     }
 
     # 4. Construct the BrowserStack URL
