@@ -16,6 +16,8 @@ def driver():
         'browser_version': 'latest',
         'name': 'Jenkins Sample Test',
         'build': 'Jenkins Build Python 3.6'
+        'bstack:options': {
+            'accessibility': True
     }
 
     # 3. Connect to BrowserStack
