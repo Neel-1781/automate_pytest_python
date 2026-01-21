@@ -15,7 +15,7 @@ def driver():
         'browser': 'Chrome',
         'browser_version': 'latest',
         'name': 'Jenkins Sample Test',
-        'build': 'Jenkins Build Python 3.6'
+        'build': 'Jenkins Build Python 3.6',
         'bstack:options': {
             'accessibility': true
     }
